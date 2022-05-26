@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10428C0B60F313FFA6EE953F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		26CC821CA41575E492BA1CBC /* LYZ_EasyNavigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYZ_EasyNavigation.podspec; path = ../LYZ_EasyNavigation.podspec; sourceTree = "<group>"; };
+		10428C0B60F313FFA6EE953F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26CC821CA41575E492BA1CBC /* LYZ_EasyNavigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYZ_EasyNavigation.podspec; path = ../LYZ_EasyNavigation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27D16A79E271372CD87127D9 /* Pods_LYZ_EasyNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYZ_EasyNavigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		414471C784877815500AD8F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		414471C784877815500AD8F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		421A23A3C38C7D94CBE54FA3 /* Pods-LYZ_EasyNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZ_EasyNavigation_Example.release.xcconfig"; path = "Target Support Files/Pods-LYZ_EasyNavigation_Example/Pods-LYZ_EasyNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYZ_EasyNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZ_EasyNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				88C99E4537CE0ED71236439C /* Pods-LYZ_EasyNavigation_Tests.debug.xcconfig */,
 				7594E9FFD89DAC39D06BCE2C /* Pods-LYZ_EasyNavigation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

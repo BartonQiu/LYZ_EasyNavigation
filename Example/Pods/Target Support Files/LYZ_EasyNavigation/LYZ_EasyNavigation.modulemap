@@ -1,0 +1,6 @@
+framework module LYZ_EasyNavigation {
+  umbrella header "LYZ_EasyNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}

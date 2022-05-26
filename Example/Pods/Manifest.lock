@@ -1,0 +1,16 @@
+PODS:
+  - LYZ_EasyNavigation (0.1.0)
+
+DEPENDENCIES:
+  - LYZ_EasyNavigation (from `../`)
+
+EXTERNAL SOURCES:
+  LYZ_EasyNavigation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYZ_EasyNavigation: 8b5c0569f322f1d60dfa9ebafa93d796b685e6d2
+
+PODFILE CHECKSUM: b6785e65bbd8faaa0e3acc4cc2534387d3cf7dec
+
+COCOAPODS: 1.11.2
