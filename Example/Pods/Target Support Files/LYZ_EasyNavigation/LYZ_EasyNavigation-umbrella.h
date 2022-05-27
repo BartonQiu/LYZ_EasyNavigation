@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ViewController.h"
+#import "ViewController2.h"
 
 FOUNDATION_EXPORT double LYZ_EasyNavigationVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYZ_EasyNavigationVersionString[];

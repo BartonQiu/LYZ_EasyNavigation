@@ -8,27 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1641B4C4E12891D9FA9780BA02487E3D /* Pods-LYZ_EasyNavigation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C752CBD36393B1467D18F814E54FE9 /* Pods-LYZ_EasyNavigation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B5A45BD283E25BB0019B852 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5A45BB283E25BB0019B852 /* ViewController.h */; };
-		4B5A45BE283E25BB0019B852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A45BC283E25BB0019B852 /* ViewController.m */; };
 		54FC849210676069C5EFDA8F82D74472 /* Pods-LYZ_EasyNavigation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2828A5A985C206D7EC1CB187E6D1BD8E /* Pods-LYZ_EasyNavigation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872457C21B7BF08D2F96904977F82D9B /* LYZ_EasyNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327647E60595452C7F0D6C1DE9FF85B /* LYZ_EasyNavigation-dummy.m */; };
+		68F1B3179D9256E9A0488AB491B055B7 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F8BF787D6F77ECD2EF26E9B88DD85 /* ViewController2.m */; };
 		980CB5FB230671107A19A33540F520D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A241B057ABE51E0707E6E88A4CE18C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A31D3B3FE0DAF65DC3EA08B21262D5 /* ViewController.m */; };
 		B0D335814FC16C431BD1A5189343AA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B45DC865AFD9B45A46EE33AC0F140477 /* Pods-LYZ_EasyNavigation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E6F1D9C2221B62FB5D8EF128B2122 /* Pods-LYZ_EasyNavigation_Tests-dummy.m */; };
 		B62108B5DAA199BF8F6DAD3F0FE09AAE /* Pods-LYZ_EasyNavigation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CACD7B98AD0BEEC9AE302240CC2949 /* Pods-LYZ_EasyNavigation_Example-dummy.m */; };
-		DD6AB5420297C128120156CE1E199DF3 /* LYZ_EasyNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E78F0F0A9AB27D20CB4D394F967CEE /* LYZ_EasyNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE23972D7DB78D2F6662D8522B198BF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0D8E3A538B803978027CB0B43EC322D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DEBBBCBBD1D874681CE6438F3D800333 /* LYZ_EasyNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A055633EC09E3E8A97AE642CB6FB443 /* LYZ_EasyNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75B255E1499597EBCDA093E77EF9DC2 /* LYZ_EasyNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490CFC8D6C34BC581A05D0A1AB47D3E5 /* LYZ_EasyNavigation-dummy.m */; };
+		F6F3D75F029E183B7F5C98ACEB647B7F /* ViewController2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF30B05A129DFE75F9831B1353028CA /* ViewController2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9510E504AE061A2859E4474D4FC8D55 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 889902E3066DE53D2CB1803652892485 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41C2281F17610EF8C0FBF5F6830B6C86 /* PBXContainerItemProxy */ = {
+		82F16E9E7E39B2C109C9168C1498A2D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D0D1CF6B93F36166CED15BEE0FF6503B;
 			remoteInfo = LYZ_EasyNavigation;
 		};
-		91632E56F4DE7399D8644216B9C471AD /* PBXContainerItemProxy */ = {
+		AAFC7B2FFC3AB79A333F0B328B688CEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,38 +41,40 @@
 
 /* Begin PBXFileReference section */
 		00CACD7B98AD0BEEC9AE302240CC2949 /* Pods-LYZ_EasyNavigation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZ_EasyNavigation_Example-dummy.m"; sourceTree = "<group>"; };
-		0FBD6D165DD3FC5976D9DD97D476E737 /* LYZ_EasyNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZ_EasyNavigation.release.xcconfig; sourceTree = "<group>"; };
-		139CB9D6213FCC236CC6AE1BAE679ADE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CF30B05A129DFE75F9831B1353028CA /* ViewController2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = LYZ_EasyNavigation/Classes/ViewController2.h; sourceTree = "<group>"; };
 		13C752CBD36393B1467D18F814E54FE9 /* Pods-LYZ_EasyNavigation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZ_EasyNavigation_Example-umbrella.h"; sourceTree = "<group>"; };
+		14A091999F727282470B64506E5F5B5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		153EC3A00ED194E3C3126897D6EA0379 /* LYZ_EasyNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZ_EasyNavigation-prefix.pch"; sourceTree = "<group>"; };
 		18C3CED80D99C67254FE4F7DFEB3BDF1 /* Pods-LYZ_EasyNavigation_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYZ_EasyNavigation_Example"; path = Pods_LYZ_EasyNavigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2828A5A985C206D7EC1CB187E6D1BD8E /* Pods-LYZ_EasyNavigation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYZ_EasyNavigation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2F074E7458ECD2E8092512D34C336077 /* Pods-LYZ_EasyNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZ_EasyNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		309E739F6758296B835DC0FA0701DF50 /* LYZ_EasyNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZ_EasyNavigation.debug.xcconfig; sourceTree = "<group>"; };
 		31D0DD7490B917AD0B88F3BF35F2DE77 /* Pods-LYZ_EasyNavigation_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYZ_EasyNavigation_Tests"; path = Pods_LYZ_EasyNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41462BEFA905103195C6B56090BB8E2A /* LYZ_EasyNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LYZ_EasyNavigation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4212F5225C6D5BE098D702EDBD76BB97 /* Pods-LYZ_EasyNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZ_EasyNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		455C0E4E3941F6780C801ADBCA33034E /* LYZ_EasyNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZ_EasyNavigation-prefix.pch"; sourceTree = "<group>"; };
+		490CFC8D6C34BC581A05D0A1AB47D3E5 /* LYZ_EasyNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZ_EasyNavigation-dummy.m"; sourceTree = "<group>"; };
 		49F4D4CF3E9A5ADA31D981189CBD2C90 /* LYZ_EasyNavigation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYZ_EasyNavigation; path = LYZ_EasyNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0D2B8C1948C12B2554A472CD4EE334 /* Pods-LYZ_EasyNavigation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZ_EasyNavigation_Tests.modulemap"; sourceTree = "<group>"; };
-		4B5A45BB283E25BB0019B852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B5A45BC283E25BB0019B852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5056B8CBDB33B142EC0D3544083F7E7D /* Pods-LYZ_EasyNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZ_EasyNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		55AC190FC02288CE3DDE801D4E59173D /* LYZ_EasyNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZ_EasyNavigation-Info.plist"; sourceTree = "<group>"; };
 		56C3F1EA3924255F5F8664B18148A488 /* Pods-LYZ_EasyNavigation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZ_EasyNavigation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		58ABE37F31028C44C2AB615AE7C8BEFB /* Pods-LYZ_EasyNavigation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZ_EasyNavigation_Tests-Info.plist"; sourceTree = "<group>"; };
-		6327647E60595452C7F0D6C1DE9FF85B /* LYZ_EasyNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYZ_EasyNavigation-dummy.m"; sourceTree = "<group>"; };
+		593F8BF787D6F77ECD2EF26E9B88DD85 /* ViewController2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = LYZ_EasyNavigation/Classes/ViewController2.m; sourceTree = "<group>"; };
 		6A1E88AE892BB901497C40CB2AB9611A /* Pods-LYZ_EasyNavigation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYZ_EasyNavigation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78E78F0F0A9AB27D20CB4D394F967CEE /* LYZ_EasyNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZ_EasyNavigation-umbrella.h"; sourceTree = "<group>"; };
 		7DB59284490AC71F34D3F4992E4EE3BA /* Pods-LYZ_EasyNavigation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYZ_EasyNavigation_Example.modulemap"; sourceTree = "<group>"; };
 		7E6E6F1D9C2221B62FB5D8EF128B2122 /* Pods-LYZ_EasyNavigation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYZ_EasyNavigation_Tests-dummy.m"; sourceTree = "<group>"; };
 		7F9AC5E4730B58FF1C8BC89029FD040A /* Pods-LYZ_EasyNavigation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZ_EasyNavigation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84108846D4DA559C92DE6146EB6833D6 /* LYZ_EasyNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZ_EasyNavigation.modulemap; sourceTree = "<group>"; };
+		8669357155A5F6978AFB9ECFE57BCB63 /* LYZ_EasyNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYZ_EasyNavigation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		889902E3066DE53D2CB1803652892485 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = LYZ_EasyNavigation/Classes/ViewController.h; sourceTree = "<group>"; };
 		895A73DB66ECA353E2A923CC76CC3DD3 /* Pods-LYZ_EasyNavigation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZ_EasyNavigation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1C1E091D006CB0493D93C8BB8BFC869 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B5B94445DB92D9F8B3759DF4880F182F /* LYZ_EasyNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYZ_EasyNavigation.modulemap; sourceTree = "<group>"; };
+		8A055633EC09E3E8A97AE642CB6FB443 /* LYZ_EasyNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYZ_EasyNavigation-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9B94F7E0D7713324852AF187235929E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1A31D3B3FE0DAF65DC3EA08B21262D5 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = LYZ_EasyNavigation/Classes/ViewController.m; sourceTree = "<group>"; };
 		BA984505B7034226C1AFDD6B797850D2 /* Pods-LYZ_EasyNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYZ_EasyNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7EB0E811B015769CDA152C47698FF7 /* LYZ_EasyNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYZ_EasyNavigation-Info.plist"; sourceTree = "<group>"; };
 		C32D71BEF71A9BD934684B7F470FAF36 /* Pods-LYZ_EasyNavigation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYZ_EasyNavigation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CAAE25F4382DA723801DEF07A9F2E044 /* LYZ_EasyNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZ_EasyNavigation.debug.xcconfig; sourceTree = "<group>"; };
+		C7700FD37AE1D2CA9B9B60D1A30D1119 /* LYZ_EasyNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYZ_EasyNavigation.release.xcconfig; sourceTree = "<group>"; };
 		E94AEB9073FB11CDD178504032DBF568 /* Pods-LYZ_EasyNavigation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYZ_EasyNavigation_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,17 +95,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C22C236B2CAD8C57B08D310E0F0922A6 /* Frameworks */ = {
+		DFD994461EBB09C515832589EF678FB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE23972D7DB78D2F6662D8522B198BF7 /* Foundation.framework in Frameworks */,
+				C0D8E3A538B803978027CB0B43EC322D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0063664E71A3D7CF5A00365987D036C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9B94F7E0D7713324852AF187235929E /* LICENSE */,
+				8669357155A5F6978AFB9ECFE57BCB63 /* LYZ_EasyNavigation.podspec */,
+				14A091999F727282470B64506E5F5B5D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D6F8239E8F906D9D3C047758214AF68 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45AAF1761A45568F985ADB2976007360 /* LYZ_EasyNavigation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		45AAF1761A45568F985ADB2976007360 /* LYZ_EasyNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				889902E3066DE53D2CB1803652892485 /* ViewController.h */,
+				B1A31D3B3FE0DAF65DC3EA08B21262D5 /* ViewController.m */,
+				0CF30B05A129DFE75F9831B1353028CA /* ViewController2.h */,
+				593F8BF787D6F77ECD2EF26E9B88DD85 /* ViewController2.m */,
+				0063664E71A3D7CF5A00365987D036C6 /* Pod */,
+				5AE1D28067D4D3AC2D1BBC21E43B791F /* Support Files */,
+			);
+			name = LYZ_EasyNavigation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4FC0FFA0E6291311414D4CFF4883604C /* Pods-LYZ_EasyNavigation_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +160,21 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AE1D28067D4D3AC2D1BBC21E43B791F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84108846D4DA559C92DE6146EB6833D6 /* LYZ_EasyNavigation.modulemap */,
+				490CFC8D6C34BC581A05D0A1AB47D3E5 /* LYZ_EasyNavigation-dummy.m */,
+				BF7EB0E811B015769CDA152C47698FF7 /* LYZ_EasyNavigation-Info.plist */,
+				153EC3A00ED194E3C3126897D6EA0379 /* LYZ_EasyNavigation-prefix.pch */,
+				8A055633EC09E3E8A97AE642CB6FB443 /* LYZ_EasyNavigation-umbrella.h */,
+				309E739F6758296B835DC0FA0701DF50 /* LYZ_EasyNavigation.debug.xcconfig */,
+				C7700FD37AE1D2CA9B9B60D1A30D1119 /* LYZ_EasyNavigation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYZ_EasyNavigation";
 			sourceTree = "<group>";
 		};
 		650CBF5F29540FE887BC0014ABE682C9 /* Targets Support Files */ = {
@@ -152,24 +203,6 @@
 			path = "Target Support Files/Pods-LYZ_EasyNavigation_Example";
 			sourceTree = "<group>";
 		};
-		7AF43327161DD5C89C5A7638981DFD83 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DC96BC2F0C3D4D6B7E7934D4F0C7D15E /* LYZ_EasyNavigation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		826EF3B6D4524DF5BE62522108832BD9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				139CB9D6213FCC236CC6AE1BAE679ADE /* LICENSE */,
-				41462BEFA905103195C6B56090BB8E2A /* LYZ_EasyNavigation.podspec */,
-				A1C1E091D006CB0493D93C8BB8BFC869 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C7C4F1C6FCEC9DE42FB00580542816A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7AF43327161DD5C89C5A7638981DFD83 /* Development Pods */,
+				1D6F8239E8F906D9D3C047758214AF68 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C7C4F1C6FCEC9DE42FB00580542816A1 /* Products */,
 				650CBF5F29540FE887BC0014ABE682C9 /* Targets Support Files */,
@@ -199,42 +232,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC96BC2F0C3D4D6B7E7934D4F0C7D15E /* LYZ_EasyNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				4B5A45BB283E25BB0019B852 /* ViewController.h */,
-				4B5A45BC283E25BB0019B852 /* ViewController.m */,
-				826EF3B6D4524DF5BE62522108832BD9 /* Pod */,
-				E1BC51BDB9B51E0B2838B381759232C9 /* Support Files */,
-			);
-			name = LYZ_EasyNavigation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E1BC51BDB9B51E0B2838B381759232C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5B94445DB92D9F8B3759DF4880F182F /* LYZ_EasyNavigation.modulemap */,
-				6327647E60595452C7F0D6C1DE9FF85B /* LYZ_EasyNavigation-dummy.m */,
-				55AC190FC02288CE3DDE801D4E59173D /* LYZ_EasyNavigation-Info.plist */,
-				455C0E4E3941F6780C801ADBCA33034E /* LYZ_EasyNavigation-prefix.pch */,
-				78E78F0F0A9AB27D20CB4D394F967CEE /* LYZ_EasyNavigation-umbrella.h */,
-				CAAE25F4382DA723801DEF07A9F2E044 /* LYZ_EasyNavigation.debug.xcconfig */,
-				0FBD6D165DD3FC5976D9DD97D476E737 /* LYZ_EasyNavigation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LYZ_EasyNavigation";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B1B166202A66AB79194AE874749B110 /* Headers */ = {
+		099B2CBF89C558626DB6AFCDD2465D1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6AB5420297C128120156CE1E199DF3 /* LYZ_EasyNavigation-umbrella.h in Headers */,
-				4B5A45BD283E25BB0019B852 /* ViewController.h in Headers */,
+				DEBBBCBBD1D874681CE6438F3D800333 /* LYZ_EasyNavigation-umbrella.h in Headers */,
+				F9510E504AE061A2859E4474D4FC8D55 /* ViewController.h in Headers */,
+				F6F3D75F029E183B7F5C98ACEB647B7F /* ViewController2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DA3D5456AA68BF1106AE772D655F9AFA /* PBXTargetDependency */,
+				647A2AEA6C5D3032BB82A5A733954173 /* PBXTargetDependency */,
 			);
 			name = "Pods-LYZ_EasyNavigation_Tests";
 			productName = Pods_LYZ_EasyNavigation_Tests;
@@ -278,12 +285,12 @@
 		};
 		D0D1CF6B93F36166CED15BEE0FF6503B /* LYZ_EasyNavigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBB9DA41D540E3B18349185B00E67B0F /* Build configuration list for PBXNativeTarget "LYZ_EasyNavigation" */;
+			buildConfigurationList = A4552D4F40D7EBEDBCC64DBDCC915CAE /* Build configuration list for PBXNativeTarget "LYZ_EasyNavigation" */;
 			buildPhases = (
-				6B1B166202A66AB79194AE874749B110 /* Headers */,
-				8B8DE8B28CB7FD05F29D6F727D5C2BA8 /* Sources */,
-				C22C236B2CAD8C57B08D310E0F0922A6 /* Frameworks */,
-				78BC5E417416B2AC6BD71F03A41C6B37 /* Resources */,
+				099B2CBF89C558626DB6AFCDD2465D1E /* Headers */,
+				FADEC9743A056CB4B6749F4627713592 /* Sources */,
+				DFD994461EBB09C515832589EF678FB8 /* Frameworks */,
+				2B2BD32DD6D354EB32539B21449D5D29 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C285A328BAD0C8304BDCC087DCBCA53C /* PBXTargetDependency */,
+				B9E6B54625A194D4AAA71E2C90AA4CFE /* PBXTargetDependency */,
 			);
 			name = "Pods-LYZ_EasyNavigation_Example";
 			productName = Pods_LYZ_EasyNavigation_Example;
@@ -343,7 +350,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78BC5E417416B2AC6BD71F03A41C6B37 /* Resources */ = {
+		2B2BD32DD6D354EB32539B21449D5D29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,12 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B8DE8B28CB7FD05F29D6F727D5C2BA8 /* Sources */ = {
+		FADEC9743A056CB4B6749F4627713592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5A45BE283E25BB0019B852 /* ViewController.m in Sources */,
-				872457C21B7BF08D2F96904977F82D9B /* LYZ_EasyNavigation-dummy.m in Sources */,
+				E75B255E1499597EBCDA093E77EF9DC2 /* LYZ_EasyNavigation-dummy.m in Sources */,
+				A241B057ABE51E0707E6E88A4CE18C6C /* ViewController.m in Sources */,
+				68F1B3179D9256E9A0488AB491B055B7 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,21 +403,51 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C285A328BAD0C8304BDCC087DCBCA53C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LYZ_EasyNavigation;
-			target = D0D1CF6B93F36166CED15BEE0FF6503B /* LYZ_EasyNavigation */;
-			targetProxy = 41C2281F17610EF8C0FBF5F6830B6C86 /* PBXContainerItemProxy */;
-		};
-		DA3D5456AA68BF1106AE772D655F9AFA /* PBXTargetDependency */ = {
+		647A2AEA6C5D3032BB82A5A733954173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LYZ_EasyNavigation_Example";
 			target = D36E6C60E0411BE5E5B3870D70A48D42 /* Pods-LYZ_EasyNavigation_Example */;
-			targetProxy = 91632E56F4DE7399D8644216B9C471AD /* PBXContainerItemProxy */;
+			targetProxy = AAFC7B2FFC3AB79A333F0B328B688CEE /* PBXContainerItemProxy */;
+		};
+		B9E6B54625A194D4AAA71E2C90AA4CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYZ_EasyNavigation;
+			target = D0D1CF6B93F36166CED15BEE0FF6503B /* LYZ_EasyNavigation */;
+			targetProxy = 82F16E9E7E39B2C109C9168C1498A2D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		16CD393534877930DD82FAA3B1B03605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309E739F6758296B835DC0FA0701DF50 /* LYZ_EasyNavigation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation.modulemap";
+				PRODUCT_MODULE_NAME = LYZ_EasyNavigation;
+				PRODUCT_NAME = LYZ_EasyNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1A0590E24B392DCFC4E1F6B39DC603F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5056B8CBDB33B142EC0D3544083F7E7D /* Pods-LYZ_EasyNavigation_Tests.debug.xcconfig */;
@@ -468,37 +506,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		223A75355169FBC005B8D970D824CCC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FBD6D165DD3FC5976D9DD97D476E737 /* LYZ_EasyNavigation.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYZ_EasyNavigation/LYZ_EasyNavigation.modulemap";
-				PRODUCT_MODULE_NAME = LYZ_EasyNavigation;
-				PRODUCT_NAME = LYZ_EasyNavigation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -604,9 +611,9 @@
 			};
 			name = Debug;
 		};
-		33022ED9BE634B67E3652CFB87B6B039 /* Debug */ = {
+		90246407F889579C327B59C1A8871999 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAAE25F4382DA723801DEF07A9F2E044 /* LYZ_EasyNavigation.debug.xcconfig */;
+			baseConfigurationReference = C7700FD37AE1D2CA9B9B60D1A30D1119 /* LYZ_EasyNavigation.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -629,10 +636,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -689,7 +697,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -749,20 +758,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A4552D4F40D7EBEDBCC64DBDCC915CAE /* Build configuration list for PBXNativeTarget "LYZ_EasyNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CD393534877930DD82FAA3B1B03605 /* Debug */,
+				90246407F889579C327B59C1A8871999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B909DF683DFA4B26C644EA7A2A6780ED /* Build configuration list for PBXNativeTarget "Pods-LYZ_EasyNavigation_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A46DD03B435D8C11025A7B8889BC127 /* Debug */,
 				1FD150423DA9D2D74B38561ABBA54278 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBB9DA41D540E3B18349185B00E67B0F /* Build configuration list for PBXNativeTarget "LYZ_EasyNavigation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33022ED9BE634B67E3652CFB87B6B039 /* Debug */,
-				223A75355169FBC005B8D970D824CCC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
